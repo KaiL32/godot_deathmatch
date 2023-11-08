@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://l7gq1f12a3mp"
+path.s3tc="res://.godot/imported/rp_nathan_animated_003_walking-8e06a51261576b386ce3223b033bcc33_rp_nathan_animated_003_dif.png-48e0883dc4c0da9780b9441358883199.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://addons/multirun/rp_nathan_animated_003_walking-8e06a51261576b386ce3223b033bcc33_rp_nathan_animated_003_dif.png"
+dest_files=["res://.godot/imported/rp_nathan_animated_003_walking-8e06a51261576b386ce3223b033bcc33_rp_nathan_animated_003_dif.png-48e0883dc4c0da9780b9441358883199.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
