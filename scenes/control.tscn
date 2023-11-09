@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://dm0yy1xfvcpb5"]
+
+[ext_resource type="Texture2D" uid="uid://p74em6mgspy0" path="res://resources/gena.jpg" id="2_utv8m"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_47phk"]
+
+[sub_resource type="Theme" id="Theme_1mygh"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("CanvasItemMaterial_47phk")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -384.0
+offset_top = -77.5
+offset_right = 384.0
+offset_bottom = 77.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_utv8m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(350, 250)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.348
+anchor_top = 0.307
+anchor_right = 0.652
+anchor_bottom = 0.693
+offset_left = 0.103973
+offset_top = 0.0639954
+offset_right = -0.104004
+offset_bottom = -0.0640259
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_1mygh")
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "GMOD 2"
+horizontal_alignment = 1
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "Enter IP Here"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "JOIN"
